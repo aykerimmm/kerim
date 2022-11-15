@@ -6,23 +6,23 @@ def add(x, y):
     return x + y
 
 # This function subtracts two numbers
-def subtract(x, y):
+def subtract(y, x):
     return x - y
 
 # This function multiplies two numbers
-def multiply(x, y):
+def multiply(y, x):
     return x * y
 
 # This function divides two numbers
-def divide(x, y):
+def divide(y, x):
     return x / y
 
 
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
 
 while True:
     # take input from the user
@@ -48,7 +48,7 @@ while True:
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        if next_calculation == "yes":
           break
     
     else:
